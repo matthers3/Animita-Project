@@ -535,6 +535,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+body {
+  background-color: #000000 !important;
+}
+
 .App {
   text-align: center;
 }
@@ -544,14 +560,7 @@ video {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
