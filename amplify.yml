@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd src && npm install
+    build:
+      commands:
+        - cd src && npm run build
+  artifacts:
+    baseDirectory: animita-project/src/build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - src/node_modules/**/*
