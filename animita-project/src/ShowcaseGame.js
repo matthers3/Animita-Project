@@ -1,5 +1,6 @@
 import { RentalButton, ShowCaseGameText, ShowCaseGameTitle } from './RentalSteamButton';
 import rentalImage from './assets/rental.png';
+import rentalGif from './assets/rentalShowcase.gif';
 
 export function ShowCaseGame()
 {
@@ -28,7 +29,7 @@ export function ShowCaseGame()
           align-middle justify-center
           lg:pl-6 xl:pl-6 2xl:pl-6
           mt-4 lg:mt-0 xl:mt-0 2xl:mt-0'>
-            <img src={rentalImage} alt="Rental" className="w-full object-cover" />
+            <img src={rentalGif} alt="Rental" className="w-full object-cover" />
           </div>
           <div className="w-full flex-col justify-center align
             lg:hidden xl:hidden 2xl:hidden ">

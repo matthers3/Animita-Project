@@ -15,7 +15,7 @@ export function RentalButton()
     return (
       <a href="https://store.steampowered.com/app/2796550/Rental/" target="_blank" rel="noopener noreferrer">
         <div className="SteamButton mt-8 md:mt-12 p-6 lg:p-6 xl:p-6 2xl:p-6">
-          <h5 className="text-xl xl:text-xl 2xl:text-xl font-bold">Buy on Steam</h5>
+          <h5 className="text-xl xl:text-xl 2xl:text-xl font-bold">Play on Steam</h5>
         </div>
       </a>
     )
