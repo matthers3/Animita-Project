@@ -3,14 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd animita-project/src && npm install
+        - npm install
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: animita-project/build
+    baseDirectory: build
     files:
       - '**/*'
   cache:
     paths:
-      - animita-project/src/node_modules/**/*
+      - node_modules/**/*
