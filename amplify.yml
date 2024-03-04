@@ -6,7 +6,7 @@ frontend:
         - cd animita-project/src && npm install
     build:
       commands:
-        - cd animita-project/src && npm run build
+        - npm run build
   artifacts:
     baseDirectory: animita-project/src/build
     files:
