@@ -27,7 +27,7 @@ export function ShowCaseGameText(prop)
     <div className="flex justify-center lg:justify-normal xl:justify-normal 2xl:justify-normal">
       <p className="gameText 
       pt-8 font-extralight
-      text-sm md:text-xl lg:text-xl xl:text-base 2xl:text-base">
+      text-sm md:text-xl lg:text-base xl:text-base 2xl:text-base">
         {prop.description}
       </p>
     </div>

@@ -1,10 +1,9 @@
 import { RentalButton, ShowCaseGameText, ShowCaseGameTitle } from './RentalSteamButton';
-import rentalImage from './assets/rental.png';
 import rentalGif from './assets/rentalShowcase.gif';
 
 export function ShowCaseGame()
 {
-    const description = "Mini Lorem Ipsum dolor sit amet sobre el juego de 4dos o tres lineas maximo.";
+    const description = "Rental is a short and spooky adventure game about the dangers of renting a house in an unknown place.";
 
     return (
       <div className="flex flex-col lg:flex-row xl:flex-row 
