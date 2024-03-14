@@ -1,5 +1,6 @@
 import { AboutUs } from './AboutUs';
 import { AnimitaHeader } from './AnimitaHeader';
+import { Collaborators } from './Collaborators';
 import './css/App.css';
 import { ShowCaseGame } from './ShowcaseGame';
 
@@ -10,6 +11,7 @@ function App() {
       <AnimitaHeader />
       <ShowCaseGame />
       <AboutUs />
+      <Collaborators />
     </div>
   );
 }

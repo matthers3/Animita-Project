@@ -25,7 +25,6 @@ export function AboutUs()
                     </div>
                 </div>
             </div>
-            <div className="pt-60"></div>
         </div>
     )
 }

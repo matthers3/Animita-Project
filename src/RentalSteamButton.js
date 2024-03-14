@@ -21,6 +21,19 @@ export function RentalButton()
     )
 }
 
+export function PresskitButton()
+{
+    const link = "https://drive.google.com/drive/folders/1qUWfKLIFkmj6uyGn6CFqooWccUYA8Sl1";
+
+    return (
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <div className="SteamButton mt-6 p-6 lg:p-4">
+          <h5 className="text-md font-bold">Presskit</h5>
+        </div>
+      </a>
+    )
+}
+
 export function ShowCaseGameText(prop)
 {
   return (

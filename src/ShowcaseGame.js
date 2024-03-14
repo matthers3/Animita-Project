@@ -1,4 +1,4 @@
-import { RentalButton, ShowCaseGameText, ShowCaseGameTitle } from './RentalSteamButton';
+import { PresskitButton, RentalButton, ShowCaseGameText, ShowCaseGameTitle } from './RentalSteamButton';
 import rentalGif from './assets/rentalShowcase.gif';
 
 export function ShowCaseGame()
@@ -15,9 +15,10 @@ export function ShowCaseGame()
         <div className="rental">
           <div className="information font-bold text-center lg:text-left">
             <ShowCaseGameTitle />
-            <div className='hidden lg:block xl:block 2xl:block'>
+            <div className='hidden lg:flex lg:flex-col'>
               <ShowCaseGameText description={description}/>
               <RentalButton />
+              <PresskitButton />
             </div>
           </div>
         </div>
@@ -30,10 +31,11 @@ export function ShowCaseGame()
           mt-4 lg:mt-0 xl:mt-0 2xl:mt-0'>
             <img src={rentalGif} alt="Rental" className="w-full object-cover" />
           </div>
-          <div className="w-full flex-col justify-center align
+          <div className="w-full flex flex-col justify-center align
             lg:hidden xl:hidden 2xl:hidden ">
               <ShowCaseGameText description={description}/>
-              <RentalButton />          
+              <RentalButton />    
+              <PresskitButton />      
           </div>
         </div>
       </div>
