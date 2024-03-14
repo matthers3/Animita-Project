@@ -66,7 +66,7 @@ export function Collaborators()
 
 function Collaborator(props) {
     return (
-        <div className="lg:w-1/3 flex flex-col justify-center items-center lg:m-12">
+        <div className="lg:w-1/3 flex flex-col justify-center items-center lg:m-12 pb-2">
             <div className={`flex justify-center items-center max-w-64 h-64 ${props.collab.marginTop} lg:pt-0 lg:h-80 lg:w-full`}>
                 <img src={props.collab.logo} alt="Collaborator Logo" className="max-h-full max-w-full" />
             </div>
