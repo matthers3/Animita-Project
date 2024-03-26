@@ -4,7 +4,7 @@ import discordLogo from './assets/discord.svg';
 
 export function AnimitaHeader()
 {
-    const discord = "https://discord.gg/usYM2S6d";
+    const discord = "https://discord.gg/Qx6sBpdw73";
     const tumblr = "https://www.tumblr.com/animitaproject";
 
     return (
