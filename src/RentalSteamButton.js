@@ -34,6 +34,19 @@ export function PresskitButton()
     )
 }
 
+export function PlushieButton()
+{
+    const link = "https://www.makeship.com/petitions/umi-plush";
+
+    return (
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <div className="SteamButton mt-6 p-6 lg:p-4">
+          <h5 className="text-md font-bold">Get the Plushie</h5>
+        </div>
+      </a>
+    )
+}
+
 export function ShowCaseGameText(prop)
 {
   return (
