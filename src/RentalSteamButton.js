@@ -3,9 +3,7 @@ export function ShowCaseGameTitle()
 {
   return (
     <div>
-      <h6 className="text-2xl lg:text-2xl xl:text-2xl 2xl:text-3xl font-bolder">new release!</h6>
-      <h1 className="text-6xl md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-9xl font-bolder">RENTAL!</h1>
-      <h2 className="text-2xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-5xl font-bolder">AVAILABLE NOW!</h2>
+      <h1 className="text-6xl md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-9xl font-bolder">RENTAL</h1>
     </div>
   );
 }
@@ -42,6 +40,19 @@ export function PlushieButton()
       <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="SteamButton mt-6 p-6 lg:p-4">
           <h5 className="text-md font-bold">Get the Plushie</h5>
+        </div>
+      </a>
+    )
+}
+
+export function MonadButton()
+{
+    const link = "https://smarto-club.itch.io/the-monad";
+
+    return (
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <div className="SteamButton mt-6 p-6 lg:p-4">
+          <h5 className="text-md font-bold">Play for free</h5>
         </div>
       </a>
     )

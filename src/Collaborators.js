@@ -17,10 +17,10 @@ export function Collaborators()
             name: "Lonely House",
             logo: lonely,
             media: {
-                // twitter: "asdfasd",
+                twitter: "https://x.com/aLonelyHouse",
                 tumblr: "https://www.tumblr.com/lonely-house",
-                // instagram: "adsf",
-                // link: "asdf"
+                instagram: "https://www.instagram.com/alonelyhouse",
+                link: "https://lonely-house.com/"
             },
             marginTop: "pt-0"
         },
